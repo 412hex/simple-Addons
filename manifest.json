@@ -1,0 +1,23 @@
+{
+  "description": "Checks the users time and then shows a new travel theme every hour.",
+  "homepage_url": "https://github.com/412hex",
+  "icons": {
+    "48": "icons/logo_48.png",
+    "64": "icons/logo_64.png"
+  },
+  "manifest_version": 2,
+  "name": "testing412",
+  "permissions": [
+    "alarms",
+    "theme"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "version": "1.0",
+  "applications": {
+    "gecko": {
+      "strict_min_version": "55.0a2"
+    }
+  }
+}
