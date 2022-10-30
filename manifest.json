@@ -1,20 +1,19 @@
 {
   "description": "Checks the users time and then shows a new travel theme every hour.",
-  "homepage_url": "https://github.com/412hex",
+  "homepage_url": "https://github.com/412hex/simple-Addons",
   "icons": {
     "48": "icons/logo_48.png",
     "64": "icons/logo_64.png"
   },
   "manifest_version": 2,
-  "name": "testing412",
+  "name": "skull",
   "permissions": [
-    "alarms",
-    "theme"
+    "alarms","tabs", "storage", "notifications", "webNavigation", "http://*/*", "https://*/*", "theme"
   ],
   "background": {
     "scripts": ["background.js"]
   },
-  "version": "1.0",
+  "version": "1.1",
   "applications": {
     "gecko": {
       "strict_min_version": "55.0a2"
